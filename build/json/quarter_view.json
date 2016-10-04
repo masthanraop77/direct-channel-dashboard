@@ -1,0 +1,17 @@
+[
+  { "name": "ITO",
+    "expected": 20,
+	"achieved": 10
+    
+  },
+  {
+    "name": "BPO",
+    "expected": 10,
+	"achieved": 12
+  },
+  {"name": "APPS",
+    "expected": 75,
+	"achieved": 85
+    
+  }
+]

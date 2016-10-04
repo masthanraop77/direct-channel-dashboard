@@ -1,0 +1,30 @@
+[
+    {
+	"client": [{
+		"name": "Client 1"
+	}, {
+		"name": "Client 2"
+	}, {
+		"name": "Client 3"
+	}]
+    },
+    {
+	"year": [{
+		"year" : 2014
+	}, {
+		"year" : 2015
+	}, {
+		"year" : 2016
+	}]
+    },
+    {
+	"user": [{
+		"username": "Ramesh Krishnan"		
+	}]
+	},
+	{
+	"time" :[{
+	    "datetime" : "20/Sep/2016"
+	}]
+    }
+]

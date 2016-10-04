@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html ng-app="forecastSystem">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Direct Channel Dashboard Jul'17</title>
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="lib/jquery.min.js"></script>
+		<script src="lib/bootstrap.min.js"></script>
+	</head>
+	<body id="my-login-app">
+	<!--<div ui-view></div>
+	START-->
+	<div class="container side-gap">
+			<div class="row">
+				<div class="header">
+					Direct Channel Dashboard <span>Jul'17</span>
+				<div class="font-weight col-md-4 paddingleft text-right">
+                    <label id="name-display"></label>
+                    <!--<span class="userpadding glyphicon glyphicon-triangle-bottom"></span> -->
+                </div> 
+				</div>
+			</div>
+			
+			
+				<div class="row">
+						<div class="col-md-4 padding-10 drop-label">
+							<label class="text-left col-md-2 font-weight client">
+								Client
+							</label>
+							<div class="col-md-6 dropdown-right drop-down">
+								<select for="client" class="form-control" id="clients"></select>
+							</div>
+			   
+						</div>
+		   
+					<div class="col-md-4 padding-10 year-align drop-label">
+							<label class="text-left col-md-2 font-weight client yearlabel">
+								Year
+							</label>
+							<div class="col-md-6 dropdown-right drop-down">
+								<select for="yearlabel" class="form-control" id="years"></select>
+							</div>
+		   
+					</div>
+					<div class="col-md-4 padding-10 text-right date disaplaydate" id="datedisplay"></div>
+	</div>
+
+			<div class="row">
+			<div class="col-sm-12 col-md-6 padding-left">
+			 <div class="width-two">
+				<form>
+					<div class="form-group">
+						<div class="container-fluid table-responsive dataget padding-top-26" id="no-more-tables">
+							<table class="col-sm-12 table-condensed table" id="tableblock">
+								<thead class="cf" >
+									<tr>
+										<th></th>
+										<th>FY'16</th>
+										<th>Q1'17</th>
+										<th>Q2'17</th>
+										<th>Q3'17</th>
+										<th>Q4'17</th>
+										<th>FY'17</th>
+										<th>Target</th>                                  
+									</tr>                    
+								</thead>
+								<tbody id="table1"></tbody>
+							</table>    
+						</div>
+					</div>
+				</form></div>
+			</div>
+			<div class="col-sm-12 col-md-6 padding-right">
+			<div class="width-two circlemobile">
+				 <form>
+					   <div class="form-group">
+							<div class="container-fluid table-responsive" id="no-more-tables">
+								<table class="col-sm-12 table-condensed" id="tablequart">
+									<thead class="cf" >
+										<tr>
+										<th colspan="3" class="curentquartet titlt-underline"> Current Quarter</th></tr></thead>
+									<tbody id="table2"></tbody>
+								</table>
+
+							</div>
+						</div>
+				</form> </div>
+			</div>
+			</div>
+			<div class="clearfix"></div>
+	<div class="row">
+		 <div class="col-sm-12 col-md-4 project-height circlemobile  padding-left">
+		 <div class="width-three">
+		 <div class="row">
+			<div class="col-md-3 circle-center">			
+				<label class="centering" id = "uti"></label>		 
+			</div>
+			<div class="col-md-3 circle-center">
+				<div id="chartContainer" class="circle-align">
+				</div>
+			</div>
+			<div class="col-md-3  circle-center">
+				 <label class="centering" id = "OnMix"></label>
+			</div>
+			<div class="col-md-3 circle-center">
+				<div id="chartContainer1" class="circle-align">
+				</div>
+			</div>
+		</div>	
+		 <div class="row">
+			<div class="col-md-3 circle-center">
+			 <label class="centering" id = "buffer"></label>
+			</div>
+			<div class="col-md-3 circle-center">
+			  <div id="chartContainer2" class="circle-align">
+			  </div>
+			</div>
+			<div class="col-md-3 circle-center">
+			  <label class="centering" id = "fresher"></label>
+			</div>
+			<div class="col-md-3 circle-center">
+				<div id="chartContainer3" class="circle-align">
+				</div>
+			</div>
+		</div>	</div>
+		 </div>
+		
+		 
+		<div class="col-sm-12 col-md-4 tower-top  padding-left">
+			<div class="width-three">
+			 <label class="curentquartet quarter-view titlt-underline col-md-11">Current Quarter:Tower View</label>
+				<div class="row">
+					<div id="quarter_view" class="col-md-8 project-height project-towerheight"></div>
+						<div class="col-md-4">
+						<table class="col-sm-12 table-condensed tabledata">
+							<thead class="cf" >
+							<tr>
+							<th>%GMFC </th><th>%GM Target </th></tr></thead>
+							<tbody id="tabledataload">
+								</tbody>
+						</table>
+					</div> 
+				</div>
+			 
+			</div>
+		</div>
+		
+		 <div class="col-sm-12 col-md-4 padding-right">
+		  <label class="curentquartet quarter-view titlt-underline col-md-11 col-sm-12">Attrition</label>
+	     <div class="width-three">
+		      <div id="attrition" class="project-towerheight attrition-margin">
+			</div>
+		 </div>
+	</div>
+
+<div class="clearfix"></div>
+	   <div class="row">
+	  <div class="col-sm-12 col-md-3 padding-left">
+	  <label class="curentquartet quarter-view titlt-underline titlepadding col-md-11 col-sm-12">CSAT Q1'17</label>
+	    <div class="width-four mobile-margin padding-top-26" id="csat"></div>
+	     </div>
+	  <div class="col-sm-12 col-md-3 padding-left">
+	  <label class="curentquartet quarter-view titlt-underline titlepadding col-md-11 col-sm-12">Red Project (#)</label>
+	     <div class="width-four redprojectportial" id="red_projects"></div>
+	  </div>
+	  <div class="col-sm-12 col-md-3 padding-left">
+	  <div class="width-four redproject">
+	  <div class="margin-top-80">
+		  <div>		 
+		 <div id="" class="col-md-10 postion-bench" style="text-align:center">Open positions (#)</div>
+		  <div id="positionNo" class="col-md-10 postion-span" style="text-align:center"></div>
+		  <div id="" class="col-md-10 postion-bench margin-top-10 align">Bench (#)</div>
+		  <div id="positionNo1" class="col-md-10 postion-span margin-top-10 align"></div>
+		  </div>
+	  </div></div>
+	  </div> 
+
+
+
+	 <div class="col-sm-12 col-md-3 padding-right">
+	 <div class="width-four redproject">
+	
+	  <table class="col-sm-12 table-condensed">
+		<thead class="cf">
+		<tr>
+	  <th colspan="3" class="curentquartet titlt-underline">Red Projects</th></tr></thead>
+	  <tbody id="red_projects_table"></tbody>
+	</table>
+     </div>
+
+	</div>
+	   </div>
+	 </div></div>
+	<!--end-->
+	<script src="lib/angular.js"></script>
+	<script src="lib/angular-ui-router.js"></script>
+	<script src="app.js"></script>
+	<script type="text/javascript" src="lib/jqplot/jquery.jqplot.min.js"></script>
+   	<script type="text/javascript" src="lib/jqplot/jqplot.barRenderer.min.js"></script>
+   	<script type="text/javascript" src="lib/jqplot/jqplot.pieRenderer.min.js"></script>
+   	<script type="text/javascript" src="lib/jqplot/jqplot.categoryAxisRenderer.min.js"></script>
+   	<script type="text/javascript" src="lib/jqplot/jqplot.pointLabels.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.jqplot.css" />
+	<script type="text/javascript" src="modules/home/quatertowertable.js"></script>
+    <script type="text/javascript" src="modules/home/circular-chart.js"></script>
+    <script type="text/javascript" src="modules/home/charts.js"></script>
+	</body>
+</html>

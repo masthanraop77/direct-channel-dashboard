@@ -1,0 +1,623 @@
+body {
+  background-color: #FFFFFF;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: calibri;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.padding-10 {
+  padding: 15px 0px 10px 15px;
+}
+.year-align {
+  right: 130px;
+  position: relative;
+}
+.tabledata {
+  line-height: 1.5;
+}
+.fontwight {
+  font-weight: bold;
+}
+.colorspan {
+  color: #a2a2a2;
+  font-size: 12px;
+  left: 5px;
+  position: relative;
+}
+.dropdown-right {
+  right: 25px;
+  position: relative;
+}
+#datedisplay {
+  left: 10px;
+  position: relative;
+}
+.width-four {
+  margin: 8px 0px 0px 0px;
+  background: white;
+  height: 150px;
+}
+.width-three {
+  background: white;
+  min-height: 204px;
+}
+.width-two {
+  background: white;
+  min-height: 170px;
+}
+.header {
+  display: block;
+  background-color: #015f83;
+  text-align: left;
+  padding: 10px;
+  padding-left: 15px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: calibri;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.header #name-display {
+  font-size: 14px;
+  font-weight: 300;
+  /*margin-right:35px;*/
+}
+.header #name-display {
+  font-size: 14px;
+  font-weight: 300;
+  /*margin-right:35px;*/
+}
+.right-13 {
+  right: 13px;
+  position: relative;
+}
+.bg-color {
+  background-color: #18324C;
+}
+th {
+  color: #a1a1a1;
+}
+tr td:nth-child(2) {
+  color: #ee000;
+}
+.curentquartet {
+  color: #0070c0;
+  border-bottom: 1px solid #d9d9d9;
+}
+tr {
+  border-color: #d9d9d9;
+}
+.border-bottom {
+  border-bottom-color: #d9d9d9;
+}
+.margin-top-80 {
+  top: 50px;
+  position: relative;
+  left: 15px;
+}
+table > tr > th {
+  background-color: red;
+}
+.poistion-cneter {
+  top: 50px;
+  position: relative;
+}
+.postion-span {
+  color: #05fbca;
+  font-size: 20px;
+}
+.margin-top-40 {
+  top: 40px;
+  position: relative;
+}
+.circle-align {
+  right: 10px;
+  position: relative;
+}
+#tablequart.table > tbody > tr > td,
+#tablequart.table > tbody > tr > th {
+  line-height: 1.4;
+}
+.postion-bench {
+  color: #a6a6a6;
+}
+.centering {
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px 5px 10px 10px;
+  font-weight: normal;
+}
+.circle-center {
+  padding: 26px 10px 10.55px 10px;
+  position: relative;
+  color: #a2a2a2;
+}
+.magin-align {
+  margin: 5px;
+}
+.table-condensed > tbody > tr > td,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > td,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > thead > tr > th {
+  padding-bottom: 2px;
+}
+#tableblock tbody > tr > td:nth-child(1),
+#tableblock tbody > tr > td:nth-child(2),
+#tableblock tbody > tr > td:nth-child(4),
+#tableblock tbody > tr > td:nth-child(6) {
+  color: #a2a2a2;
+}
+#tableblock tbody > tr > td:nth-child(5) {
+  color: #888888;
+}
+#tableblock tbody > tr > td:nth-child(7),
+#tableblock tbody > tr > td:nth-child(3) {
+  color: #00cc00;
+}
+#tableblock tbody > tr:first-child > td:nth-child(3) {
+  color: #ee0000
+	;
+}
+.font-weight {
+  font-weight: normal;
+}
+.project-height {
+  height: 200px;
+  height: auto;
+}
+.margin-top-10 {
+  top: 10px;
+  position: relative;
+}
+.quarter-view {
+  z-index: 1;
+  top: 6px;
+  position: relative;
+  left: 10px;
+}
+.project-red {
+  color: #828282;
+  font-size: 12px;
+  font-weight: bold;
+  left: 5px;
+  position: relative;
+}
+.current-first {
+  color: #888888;
+  text-align: center;
+  padding-left: 20px;
+}
+.current-last {
+  color: #00cc00;
+  text-align: center;
+  padding-left: 25px;
+}
+.current-middle {
+  text-align: center;
+  padding-left: 20px;
+}
+.gmfc-table {
+  color: #000000;
+}
+.gmfctarget-table {
+  color: #00cc00;
+}
+.name-align {
+  width: 100%;
+  display: inline-block;
+}
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+  padding-left: 0px;
+  padding-right: 10px;
+}
+.container {
+  background: #BBBBBB;
+  margin: auto;
+  padding-bottom: 15px;
+}
+.padding-right {
+  padding-right: 0px;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.titlt-underline {
+  border-bottom: 1px solid #bebebe;
+  padding-bottom: 4px;
+}
+.margin-algin {
+  margin-top: -22px;
+}
+.titlepadding {
+  padding-top: 5px;
+}
+.redproject {
+  min-height: 175px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.project-towerheight {
+  min-height: 175px;
+}
+#attrition {
+  height: 204px;
+}
+#csat,
+#red_projects {
+  height: 175px;
+}
+.userpadding {
+  top: 6px;
+  left: 5px;
+}
+.paddingleft {
+  float: right;
+}
+.datechagnes {
+  color: #ffffff;
+}
+.client {
+  padding-top: 7px;
+}
+.drop-down {
+  margin-left: 10px;
+}
+.align {
+  text-align: center;
+}
+.padding-top-26 {
+  padding-top: 26px;
+}
+table {
+  width: 100%;
+}
+#tableblock thead > tr > th {
+  width: 12%;
+  font-size: 1em;
+}
+#tableblock thead > tr > th:nth-child(1) {
+  width: 16%;
+}
+#tableblock tbody > tr > td {
+  width: 12%;
+  font-size: 1em;
+}
+#tableblock tbody > tr > td:nth-child(1) {
+  width: 16%;
+}
+@media only screen and (max-width: 768px) and (min-width: 320px) and (orientation: portrait) {
+  .width-four {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .width-three {
+    width: 100%;
+  }
+  .width-two {
+    width: 100%;
+  }
+  .header {
+    display: block;
+    background-color: #015f83;
+    text-align: left;
+    padding: 10px;
+    padding-left: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 100px;
+  }
+  .year-align {
+    right: 0px;
+    position: relative;
+  }
+  .drop-down {
+    margin-left: 0px;
+  }
+  .dropdown-right {
+    right: 0px;
+    position: relative;
+  }
+  .padding-left {
+    padding-right: 0px;
+  }
+  .quarter-view {
+    z-index: 1;
+    top: 0px;
+    position: relative;
+    left: 16px;
+  }
+  .project-height > div.width-three > div.row > div {
+    width: 25%;
+    float: left;
+  }
+  .project-height > div.width-three > div.row > div.lablecircle {
+    width: 24%;
+    float: left;
+    padding-right: 0px;
+  }
+  .project-height > div.width-three > div.row > div.contentcircle {
+    width: 20%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+  .mobile-margin {
+    margin-top: -21px;
+  }
+  .current-tower {
+    margin-top: 10px;
+  }
+  .redprojectportial {
+    margin-top: -21px;
+  }
+  .attrition-margin {
+    margin-top: -15px;
+  }
+  .tower-top {
+    margin-top: 10px;
+  }
+  .circlemobile {
+    margin-top: 5px;
+  }
+  .disaplaydate {
+    bottom: 150px;
+    padding-right: 15px;
+  }
+  .padding-10 {
+    padding: 0px;
+  }
+  .paddingleft {
+    float: right;
+    padding-right: 10px;
+  }
+  #datedisplay {
+    left: 0px;
+    position: relative;
+  }
+  .form-control {
+    display: block;
+    width: 103% !important;
+  }
+  .tower-table {
+    margin-left: 15px;
+  }
+  .heading-chart {
+    top: 15px;
+    width: 90%;
+  }
+  .attrition-chart {
+    top: 22px;
+    width: 90%;
+  }
+  .redproject-left {
+    left: 17px;
+    position: relatvie;
+  }
+  .redproject-chart {
+    top: 6px;
+    width: 90%;
+    left: 10px;
+  }
+  .mobilemarign {
+    top: 10px;
+    position: relative;
+  }
+  .cureent-view {
+    top: 10px;
+    width: 90%;
+    position: relative;
+  }
+  .centering {
+    padding: 20px 0px 10px 13px;
+  }
+  .circle-align {
+    right: 10px;
+    position: relative;
+    margin: 0 0 0 10px;
+  }
+  .jqplot-axis {
+    font-size: 8pt !important;
+    margin-left: 8px;
+  }
+  .jqplot-point-label {
+    font-size: 8pt !important;
+    z-index: 2;
+  }
+}
+@media only screen and (width: 768px) and (orientation: portrait) {
+  .attrition-margin {
+    margin-top: 7px;
+  }
+  .mobile-margin {
+    margin-top: 8px;
+  }
+  .redprojectportial {
+    margin-top: 7px;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 320px) and (orientation: landscape) {
+  .drop-down {
+    margin-left: 0px;
+  }
+  .dropdown-right {
+    right: 0px;
+    position: relative;
+  }
+  .year-align {
+    right: 0px;
+    position: relative;
+  }
+  .padding-10 {
+    padding: 0px;
+  }
+  .padding-left {
+    padding-right: 0px;
+  }
+  .quarter-view {
+    z-index: 1;
+    top: 10px;
+    position: relative;
+    left: 16px;
+  }
+  .project-height > div.width-three > div.row > div {
+    width: 25%;
+    float: left;
+  }
+  .project-height > div.width-three > div.row > div.lablecircle {
+    width: 30%;
+    float: left;
+  }
+  .project-height > div.width-three > div.row > div.contentcircle {
+    width: 30%;
+    float: left;
+  }
+  .mobile-margin {
+    margin-top: -21px;
+  }
+  .current-tower {
+    margin-top: 10px;
+  }
+  .redprojectportial {
+    margin-top: -21px;
+  }
+  .attrition-margin {
+    margin-top: -15px;
+  }
+  .tower-top {
+    margin-top: 10px;
+  }
+  .circlemobile {
+    margin-top: -5px;
+  }
+  .disaplaydate {
+    bottom: 150px;
+  }
+  .padding-10 {
+    padding: 0px;
+  }
+  #datedisplay {
+    left: 0px;
+    position: relative;
+  }
+  .form-control {
+    display: block;
+    width: 103% !important;
+  }
+  .tower-table {
+    margin-left: 15px;
+  }
+  .heading-chart {
+    top: 15px;
+    width: 90%;
+  }
+  .attrition-chart {
+    top: 22px;
+    width: 90%;
+  }
+  .redproject-chart {
+    top: 6px;
+    width: 90%;
+    left: 10px;
+  }
+  .redproject-left {
+    left: 17px;
+    position: relatvie;
+  }
+  .centering {
+    padding: 20px 0px 10px 13px;
+  }
+  .circle-align {
+    right: 10px;
+    position: relative;
+    margin: 0 0 0 10px;
+  }
+  .project-height > div.width-three > div.row > div.lablecircle {
+    width: 24%;
+    float: left;
+    padding-right: 0px;
+  }
+  .project-height > div.width-three > div.row > div.contentcircle {
+    width: 20%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+  .jqplot-axis {
+    font-size: 8pt !important;
+    margin-left: 8px;
+  }
+  .jqplot-point-label {
+    font-size: 8pt !important;
+    z-index: 2;
+  }
+}
+.jqplot-axis {
+  font-size: 8pt !important;
+  margin-left: 8px;
+}
+.jqplot-point-label {
+  font-size: 9pt !important;
+  z-index: 2;
+  margin-left: 5px !important;
+}
+canvas.jqplot-series-canvas {
+  margin-left: 6px !important;
+}
+#csat .jqplot-yaxis {
+  width: 35px !important;
+}

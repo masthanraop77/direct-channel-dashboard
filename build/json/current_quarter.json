@@ -1,0 +1,38 @@
+[
+    {
+	"cq1": [{
+		"n": 122.6,
+		"t": "Rev Forecast (SM)"
+	}, {
+		"n": 123.8,
+		"t": "Rev Target (SM)"
+	}, {
+		"n": "99 %",
+		"t": "Target Acheievment"
+	}]
+    },
+    {
+	"cq2": [{
+		"n": 2508,
+		"t": "GP Target (INR M)"
+	}, {
+		"n": 2615,
+		"t": "GP Target (INR M)"
+	}, {
+		"n": "96 %",
+		"t": "Target Acheievment"
+	}]
+    },
+    {
+	"cq3": [{
+		"n": "31 %",
+		"t": "%GM Forecast"
+	}, {
+		"n": "32 %",
+		"t": "%GM Forecast"
+	}, {
+		"n": "97 %",
+		"t": "Target Acheievment"
+	}]
+    }
+]
