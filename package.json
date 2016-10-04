@@ -1,0 +1,42 @@
+{
+  "name": "directChannelDashboard",
+  "version": "0.0.1",
+  "description": "Direct Channel Dashboard.",
+  "author": "Ishwara Prasad Kudva <ishwara.kudva@mphasis.com>",
+  "contributors": [
+    {
+      "name": "Ishwara Prasad Kudva",
+      "email": "ishwara.kudva@mphasis.com"
+    },
+    {
+      "name": "Masthan Pernamitta",
+      "email": "masthan.pernamitta@mphasis.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-bootstrap": "^0.12.2",
+    "angular-ui-router": "^1.0.0-beta.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jquery": "^3.1.0",
+    "jshint": "^2.9.3",
+    "mongodb": "^2.2.10"
+  },
+  "engines": {
+    "node": "4.4.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
